@@ -38,7 +38,7 @@ goto inicio
 echo.
 md C:\Users\%username%\AppData\Local\Temp\AutoHTML\ 2>nul
 echo ^<!--Creado el %date% a las %time% por %username%.--^>^<html^>>C:\Users\%username%\AppData\Local\Temp\AutoHTML\temp.html
-set /p title="Escribe el título que aparecerá en la pestaña en el navegador y pulsa ENTER. (dejalo en blanco si no quieres ningún título) --> "
+set /p title="Escribe el título que aparecerá en la pestaña del navegador y pulsa ENTER. (dejalo en blanco si no quieres ningún título) --> "
 echo ^<head^>^<title^>%title%^</title^>^</head^>^<body^>>>C:\Users\%username%\AppData\Local\Temp\AutoHTML\temp.html
 goto hsize
 :hsize
