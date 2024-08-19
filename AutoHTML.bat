@@ -28,7 +28,9 @@ if "%eleccion%"=="2" exit
 if "%eleccion%" GTR 2 goto invalido
 :invalido
 echo.
-echo Has puesto un número inválido, selecciona uno acorde a la acción que vas a realizar. Pulsa cualquier tecla para volver a intentarlo.
+echo Selección inválida. Elige entre las opciones disponibles.
+echo.
+echo Pulsa cualquier tecla para volver a seleccionar una opción.
 pause>nul
 cls
 goto inicio
@@ -63,7 +65,9 @@ if "%tamaño%"=="7" goto p
 if "%tamaño%" GTR 7 goto hinvalido
 :hinvalido
 echo.
-echo Has puesto un número inválido, selecciona uno acorde al tamaño de cabecera que quieres visualizar.
+echo Selección inválida. Elige entre las opciones disponibles.
+echo.
+echo Pulsa cualquier tecla para volver a seleccionar una opción.
 pause>nul
 cls
 goto hsize
@@ -111,7 +115,9 @@ if "%masp%"=="2" goto p
 if "%masp%" GTR 2 goto mashinvalido
 :mashinvalido
 echo.
-echo Has puesto un número inválido, selecciona uno acorde a la acción que vas a realizar. Pulsa cualquier tecla para volver a intentarlo.
+echo Selección inválida. Elige entre las opciones disponibles.
+echo.
+echo Pulsa cualquier tecla para volver a seleccionar una opción.
 pause>nul
 cls
 goto mash
@@ -137,7 +143,9 @@ if "%p%"=="6" goto url
 if "%p%" GTR 6 goto pinvalido
 :pinvalido
 echo.
-echo Has puesto un número inválido, selecciona uno acorde a la acción que vas a realizar. Pulsa cualquier tecla para volver a intentarlo.
+echo Selección inválida. Elige entre las opciones disponibles.
+echo.
+echo Pulsa cualquier tecla para volver a seleccionar una opción.
 pause>nul
 cls
 goto p
@@ -160,7 +168,9 @@ if "%maspnormal%"=="2" goto url
 if "%maspnormal%" GTR 2 goto pnormalinvalido
 :pnormalinvalido
 echo.
-echo Has puesto un número inválido, selecciona uno acorde a la acción que vas a realizar. Pulsa cualquier tecla para volver a intentarlo.
+echo Selección inválida. Elige entre las opciones disponibles.
+echo.
+echo Pulsa cualquier tecla para volver a seleccionar una opción.
 pause>nul
 cls
 goto maspnormal
@@ -183,7 +193,9 @@ if "%maspbold%"=="2" goto url
 if "%maspbold%" GTR 2 goto pboldinvalido
 :pboldinvalido
 echo.
-echo Has puesto un número inválido, selecciona uno acorde a la acción que vas a realizar. Pulsa cualquier tecla para volver a intentarlo.
+echo Selección inválida. Elige entre las opciones disponibles.
+echo.
+echo Pulsa cualquier tecla para volver a seleccionar una opción.
 pause>nul
 cls
 goto maspbold
@@ -206,7 +218,9 @@ if "%maspitalic%"=="2" goto url
 if "%maspitalic%" GTR 2 goto pitalicinvalido
 :pitalicinvalido
 echo.
-echo Has puesto un número inválido, selecciona uno acorde a la acción que vas a realizar. Pulsa cualquier tecla para volver a intentarlo.
+echo Selección inválida. Elige entre las opciones disponibles.
+echo.
+echo Pulsa cualquier tecla para volver a seleccionar una opción.
 pause>nul
 cls
 goto maspitalic
@@ -229,7 +243,9 @@ if "%maspsubrayado%"=="2" goto url
 if "%maspsubrayado%" GTR 2 goto psubrayadoinvalido
 :psubrayadoinvalido
 echo.
-echo Has puesto un número inválido, selecciona uno acorde a la acción que vas a realizar. Pulsa cualquier tecla para volver a intentarlo.
+echo Selección inválida. Elige entre las opciones disponibles.
+echo.
+echo Pulsa cualquier tecla para volver a seleccionar una opción.
 pause>nul
 cls
 goto maspsubrayado
@@ -252,7 +268,9 @@ if "%maspdeleted%"=="2" goto url
 if "%maspdeleted%" GTR 2 goto pdeletedinvalido
 :pdeletedinvalido
 echo.
-echo Has puesto un número inválido, selecciona uno acorde a la acción que vas a realizar. Pulsa cualquier tecla para volver a intentarlo.
+echo Selección inválida. Elige entre las opciones disponibles.
+echo.
+echo Pulsa cualquier tecla para volver a seleccionar una opción.
 pause>nul
 cls
 goto maspdeleted
@@ -270,7 +288,9 @@ if "%url%"=="2" goto nombre
 if "%url%" GTR 2 goto urlinvalido
 :urlinvalido
 echo.
-echo Has puesto un número inválido, selecciona uno acorde a la acción que vas a realizar. Pulsa cualquier tecla para volver a intentarlo.
+echo Selección inválida. Elige entre las opciones disponibles.
+echo.
+echo Pulsa cualquier tecla para volver a seleccionar una opción.
 pause>nul
 cls
 goto url
@@ -294,7 +314,9 @@ if "%ponertextourl%"=="2" goto noponertexto
 if "%ponertextourl%" GTR 2 goto ponermasurlinvalido
 :ponermasurlinvalido
 echo.
-echo Has puesto un número inválido, selecciona uno acorde a la acción que vas a realizar. Pulsa cualquier tecla para volver a intentarlo.
+echo Selección inválida. Elige entre las opciones disponibles.
+echo.
+echo Pulsa cualquier tecla para volver a seleccionar una opción.
 pause>nul
 cls
 goto ponertextourl
