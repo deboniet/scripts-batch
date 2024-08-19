@@ -11,7 +11,7 @@
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 :: Descripción del script: Configurar el firewall de Windows para jugar a GTA Online, de manera que se evite que otros jugadores puedan deducir la IP pública desde donde se está jugando y así evitar ataques de denegación de servicio.
 :: Requisitos previos: Tener el juego comprado en Steam.
-:: NOTA: Bloquear los puertos que usa GTA V para P2P implica que se jugará en sesiones públicas vacías. El usar este métódo de bloqueo no implica que los atacantes no utilicen vulnerabilidades en Social Club para expulsarte de la sesión o hacer otro tipo de ataques.
+:: NOTA: Bloquear los puertos que usa GTA V para P2P implica que se jugará en sesiones públicas vacías. El usar este método de bloqueo no implica que los atacantes no utilicen vulnerabilidades en Social Club para expulsarte de la sesión o hacer otro tipo de ataques.
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 chcp 65001>nul
 title GTA Online Peer to Peer
