@@ -45,8 +45,8 @@ goto inicio
 cls
 echo Vas a realizar una suma.
 echo.
-set /p numero1="Elige un número y pulsa ENTER --> "
-set /p numero2="Elige otro número y pulsa ENTER --> "
+set /p numero1="Elige un número y pulsa ENTER. --> "
+set /p numero2="Elige otro número y pulsa ENTER. --> "
 set /a suma=%numero1% + %numero2%
 if "%suma%"=="0" (goto idiota) else (goto resultadosuma)
 :idiota
@@ -69,8 +69,8 @@ goto inicio
 cls
 echo Vas a realizar una resta.
 echo.
-set /p numero1="Elige un número y pulsa ENTER --> "
-set /p numero2="Elige un número y pulsa ENTER --> "
+set /p numero1="Elige un número y pulsa ENTER. --> "
+set /p numero2="Elige un número y pulsa ENTER. --> "
 set /a resta=%numero1% - %numero2%
 echo.
 echo El resultado es %resta%.
@@ -83,8 +83,8 @@ goto inicio
 cls
 echo Vas a realizar una multiplicación.
 echo.
-set /p numero1="Elige un número y pulsa ENTER --> "
-set /p numero2="Elige un número y pulsa ENTER --> "
+set /p numero1="Elige un número y pulsa ENTER. --> "
+set /p numero2="Elige un número y pulsa ENTER. --> "
 set /a multiplicacion=%numero1% * %numero2%
 if "%multiplicacion%"=="0" (goto idiota) else (goto resultadomulti)
 :resultadomulti
@@ -99,8 +99,8 @@ goto inicio
 cls
 echo Vas a realizar una división.
 echo.
-set /p numero1="Elige un número y pulsa ENTER --> "
-set /p numero2="Elige un número y pulsa ENTER --> "
+set /p numero1="Elige un número y pulsa ENTER. --> "
+set /p numero2="Elige un número y pulsa ENTER. --> "
 set /a division=%numero1% / %numero2%
 echo.
 echo El resultado es %division%.
@@ -113,8 +113,8 @@ goto inicio
 cls
 echo Vas a realizar la media entre dos números.
 echo.
-set /p numero1="Elige un número y pulsa ENTER --> "
-set /p numero2="Elige un número y pulsa ENTER --> "
+set /p numero1="Elige un número y pulsa ENTER. --> "
+set /p numero2="Elige un número y pulsa ENTER. --> "
 set /a media=(%numero1% + %numero2%)/2
 echo.
 echo La media de estos dos números es %media%.
