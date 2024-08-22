@@ -38,7 +38,7 @@ goto inicio
 echo.
 md C:\Users\%username%\AppData\Local\Temp\AutoHTML\ 2>nul
 echo ^<!--Creado el %date% a las %time% por %username%.--^>>C:\Users\%username%\AppData\Local\Temp\AutoHTML\temp.html
-set /p title="Escribe el título que aparecerá en la pestaña del navegador y pulsa ENTER. (dejalo en blanco si no quieres ningún título) --> "
+set /p title="Escribe el título que aparecerá en la pestaña del navegador y pulsa ENTER. (déjalo en blanco si no quieres ningún título) --> "
 echo ^<html^>^<head^>^<title^>%title%^</title^>^</head^>^<body^>>>C:\Users\%username%\AppData\Local\Temp\AutoHTML\temp.html
 goto hsize
 :hsize
@@ -335,6 +335,6 @@ set /p nombre="Escribe el nombre que te gustaría que tuviera el fichero y pulsa
 ren C:\Users\%username%\AppData\Local\Temp\AutoHTML\temp.html %nombre%.html
 move C:\Users\%username%\AppData\Local\Temp\AutoHTML\%nombre%.html C:\Users\%username%\Desktop>nul
 echo.
-echo El archivo se ha movido al Escritorio. Pulsa cualquier tecla para volver al inicio.
+echo El fichero se ha movido al Escritorio. Pulsa cualquier tecla para volver al inicio.
 pause>nul
 goto inicio
