@@ -16,7 +16,7 @@ chcp 65001>nul
 title Motor de búsqueda
 :inicio
 cls
-echo Hola %username%, ¿Con que navegador quieres realizar tu búsqueda?
+echo Hola %username%, ¿Con qué navegador quieres realizar tu búsqueda?
 echo.
 set var=0
 echo 1. Google Chrome.
